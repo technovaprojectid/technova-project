@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova.Project — Premium Web Development & Digital Solutions</title>
+    <meta name="description" content="TechNova.Project membantu bisnis membangun website profesional, cepat, dan SEO-friendly untuk pertumbuhan brand yang lebih kuat.">
+    <meta name="keywords" content="website profesional, jasa web development, desain website, SEO, landing page, UKM, startup">
+    <meta property="og:title" content="TechNova.Project — Premium Web Development & Digital Solutions">
+    <meta property="og:description" content="Kami membantu bisnis membangun website profesional, cepat, dan siap tumbuh.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://technovaproject.com/assets/images/preview.webp">
+    <meta property="og:image:alt" content="TechNova.Project preview image">
+    <meta property="og:url" content="https://technovaproject.com">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="TechNova.Project — Premium Web Development & Digital Solutions">
+    <meta property="twitter:description" content="Kami membantu bisnis membangun website profesional, cepat, dan siap tumbuh.">
+    <meta property="twitter:image" content="https://technovaproject.com/assets/images/preview.webp">
+
+    <link rel="icon" type="image/webp" href="assets/images/Logo2.webp">
+    <link rel="apple-touch-icon" href="assets/images/Logo2.webp">
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com data:; img-src 'self' data: https:; connect-src 'self' https: https://fonts.googleapis.com https://fonts.gstatic.com; frame-ancestors 'none';">
+    
+    <!-- Google Fonts: Inter + Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest">
+    </script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- AOS (Animate On Scroll) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================================================
+         NAVIGATION
+         ============================================================ -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <!-- Logo -->
+            <a href="#" class="navbar-logo" aria-label="TechNova.Project Home">
+                <img src="assets/images/Logo.png" alt="TechNova Logo" class="logo-icon" id="navLogoImg" title="Logo">
+                <div class="logo-text">
+                    TechNova<span class="logo-dot">.</span>Project
+                </div>
+            </a>
+
+            <!-- Desktop Links -->
+            <div class="navbar-links">
+                <a href="#about">About</a>
+                <a href="#services">Service</a>
+                <a href="#workflow">Workflow</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact Us</a>
+                <a href="https://wa.me/6282325682195?text=Hello%20TechNova.Project!%20I'd%20like%20to%20discuss%20my%20project." 
+                   class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer"
+                   aria-label="Hubungi TechNova.Project melalui WhatsApp">
+                    <i data-lucide="message-circle" class="icon-sm"></i>
+                    Let's Talk
+                </a>
+            </div>
+
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="navbar-mobile">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#workflow">Workflow</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="faq.html">FAQ</a>
+            <a href="#contact">Contact Us</a>
+            <a href="https://wa.me/6282325682195?text=Hello%20TechNova.Project!%20I'd%20like%20to%20discuss%20my%20project." 
+               class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <i data-lucide="message-circle" class="icon-sm"></i>
+                Start a Project
+            </a>
+        </div>
+
+        <!-- Mobile Overlay -->
+        <div class="navbar-overlay"></div>
+    </nav>
+
+    <!-- ============================================================
+         HERO SECTION
+         ============================================================ -->
+    <section class="hero" id="hero">
+        <!-- Background orbs -->
+        <div class="hero-bg">
+            <div class="hero-bg-gradient"></div>
+            <div class="hero-bg-gradient-2"></div>
+        </div>
+
+        <!-- Floating geometric shapes -->
+        <div class="hero-shape hero-shape-1" aria-hidden="true"></div>
+        <div class="hero-shape hero-shape-2" aria-hidden="true"></div>
+        <div class="hero-shape hero-shape-3" aria-hidden="true"></div>
+        <div class="hero-shape hero-shape-4" aria-hidden="true"></div>
+
+        <div class="container">
+            <!-- Left: Content -->
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <span class="section-label">Premium Digital Solutions Agency</span>
+
+                <h1>
+                    Turn Ideas<br>
+                    <span class="text-gradient">into Digital Reality</span>
+                </h1>
+
+                <p>
+                    Kami menciptakan website berkinerja tinggi dan pengalaman digital yang 
+                    meningkatkan brand Anda, memikat audiens, dan mendorong pertumbuhan 
+                    bisnis yang terukur.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="https://wa.me/6282325682195?text=Halo%20TechNova.Project!%20Saya%20ingin%20berdiskusi%20tentang%20project%20saya." 
+                       class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer"
+                       aria-label="Mulai percakapan dengan TechNova.Project di WhatsApp">
+                        Mulai Sekarang
+                        <i data-lucide="arrow-right" class="icon-sm"></i>
+                    </a>
+                    <a href="#portfolio" class="btn btn-outline-light btn-lg">
+                        Lihat Portfolio
+                        <i data-lucide="eye" class="icon-sm"></i>
+                    </a>
+                </div>
+
+                <!-- Trust Stats -->
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <h3><span data-counter="8+" data-suffix="+">0</span></h3>
+                        <p>Website & Demo</p>
+                    </div>
+                    <div class="hero-stat">
+                        <h3><span data-counter="100" data-suffix="">0</span> <span class="counter-suffix">%</span></h3>
+                        <p>Client Commitment</p>
+                    </div>
+                    <div class="hero-stat">
+                        <h3><span data-counter="10" data-suffix="">0</span> <span class="counter-suffix">Hari</span></h3>
+                        <p>Rata-rata Pengiriman</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Illustration -->
+            <div class="hero-visual" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="hero-illustration">
+                    <div class="hero-illustration-inner">
+                        <div class="hero-illustration-grid"></div>
+                        <div class="hero-illustration-content">
+                            <img src="assets/images/preview.webp" alt="Contoh hasil website TechNova.Project" class="hero-preview-image" loading="lazy" decoding="async">
+                            <div class="icon-grid">
+                                <span data-lucide="code-2"></span>
+                                <span data-lucide="layout"></span>
+                                <span data-lucide="smartphone"></span>
+                                <span data-lucide="globe"></span>
+                                <span data-lucide="zap"></span>
+                                <span data-lucide="shield"></span>
+                            </div>
+                            <p>Tech Stack Modern • Kode Bersih • Performa Cepat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator" aria-hidden="true">
+            <div class="mouse"></div>
+            <span>Gulir</span>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT SECTION
+         ============================================================ -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content" data-aos="fade-up">
+                    <span class="section-label">Tentang Kami</span>
+                    <h2>Kami Membangun Pengalaman<br> <span class="text-gradient">Digital yang Bermakna</span></h2>
+                    <p>
+                        TechNova.Project adalah agensi pengembangan web dan solusi digital profesional 
+                        yang berdedikasi membantu bisnis berkembang di lanskap digital. Kami menggabungkan 
+                        teknologi terkini dengan desain elegan untuk menciptakan website yang tidak hanya 
+                        terlihat memukau tetapi juga memberikan hasil nyata.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i data-lucide="target"></i>
+                            </div>
+                            <div class="about-feature-text">
+                                <h4>Berorientasi Hasil</h4>
+                                <p>Setiap keputusan desain mendorong hasil bisnis yang terukur</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i data-lucide="paintbrush"></i>
+                            </div>
+                            <div class="about-feature-text">
+                                <h4>Desain Custom</h4>
+                                <p>Antarmuka unik yang disesuaikan untuk identitas brand Anda</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i data-lucide="gauge"></i>
+                            </div>
+                            <div class="about-feature-text">
+                                <h4>Performa Utama</h4>
+                                <p>Waktu muat super cepat dan pengalaman pengguna optimal</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i data-lucide="headphones"></i>
+                            </div>
+                            <div class="about-feature-text">
+                                <h4>Dukungan Dedikasi</h4>
+                                <p>Pemeliharaan berkelanjutan dan bantuan teknis 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual" data-aos="fade-left" data-aos-delay="200">
+                    <div class="about-stats-grid">
+                        <div class="about-stat-card">
+                            <h3><span data-counter="8+" data-suffix="+">0</span></h3>
+                            <p>Website & Demo</p>
+                        </div>
+                        <div class="about-stat-card">
+                            <h3><span data-counter="2" data-suffix="">0</span></h3>
+                            <p>Client Project</p>
+                        </div>
+                        <div class="about-stat-card">
+                            <h3><span data-counter="1+" data-suffix="+">0</span></h3>
+                            <p>Years Learning</p>
+                        </div>
+                        <div class="about-stat-card">
+                            <h3><span data-counter="1" data-suffix="">0</span></h3>
+                            <p>Solo Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES / PRICING SECTION
+         ============================================================ -->
+    <section class="section" id="services" style="background: rgba(15, 31, 53, 0.3);">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Layanan Kami</span>
+                <h2>Paket Premium untuk<br><span class="text-gradient">Setiap Kebutuhan Bisnis</span></h2>
+                <p>Pilih paket sempurna yang sesuai dengan tujuan dan budget Anda. Semua paket mencakup kualitas dan dukungan signature kami.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Package 1: Landing Page -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card-icon">
+                        <i data-lucide="layout-dashboard"></i>
+                    </div>
+                    <h3>Landing Page</h3>
+                    <p class="service-subtitle">Sempurna untuk startup & UKM</p>
+                    <div class="service-price-wrap">
+                        <span class="service-price-old">Rp 1.200.000</span>
+                        <span class="service-discount-badge">Save 46%</span>
+                        <div class="service-price">Rp650<span>.000</span></div>
+                    </div>
+                    <ul class="service-features">
+                        <li><i data-lucide="check"></i><span>Desain Landing 1 Halaman</span></li>
+                        <li><i data-lucide="check"></i><span>Responsif & Mobile-First</span></li>
+                        <li><i data-lucide="check"></i><span>Optimasi SEO</span></li>
+                        <li><i data-lucide="check"></i><span>Integrasi WhatsApp/Email</span></li>
+                        <li><i data-lucide="check"></i><span>Pemeliharaan 1 Bulan</span></li>
+                    <li><i data-lucide="check"></i><span>Contact Form</span></li>
+                    <li><i data-lucide="check"></i><span>Setup Domain & Hosting*</span></li>
+                    <li><i data-lucide="check"></i><span>Revisi 3x</span></li>
+                    <li><i data-lucide=""></i><span>*domain & hosting di bayar client</span></li>
+                    </ul>
+                    <a href="https://wa.me/6282325682195?text=Halo%20TechNova!%20Saya%20tertarik%20dengan%20paket%20Landing%20Page." 
+                       class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        Mulai Sekarang
+                        <i data-lucide="arrow-right" class="icon-sm"></i>
+                    </a>
+                </div>
+
+                <!-- Package 2: Company Profile (Popular) -->
+                <div class="service-card popular" data-aos="fade-up" data-aos-delay="200">
+                    <span class="service-card-badge">Paling Populer</span>
+                    <div class="service-card-icon">
+                        <i data-lucide="building-2"></i>
+                    </div>
+                    <h3>Profil Perusahaan</h3>
+                    <p class="service-subtitle">Untuk bisnis profesional</p>
+                    <div class="service-price-wrap">
+                        <span class="service-price-old">Rp 2.200.000</span>
+                        <span class="service-discount-badge">Save 47%</span>
+                        <div class="service-price">Rp1.4<span>00.000</span></div>
+                    </div>
+                    <ul class="service-features">
+                        <li><i data-lucide="check"></i><span>Desain Premium Custom</span></li>
+                        <li><i data-lucide="check"></i><span>Up To 10 Page</span></li>
+                        <li><i data-lucide="check"></i><span>SEO + Google Analytics</span></li>
+                        <li><i data-lucide="check"></i><span>Contact Form</span></li>
+                        <li><i data-lucide="check"></i><span>Integrasi WhatsApp/Email</span></li>
+                        <li><i data-lucide="check"></i><span>Bagian Blog / News</span></li>
+                        <li><i data-lucide="check"></i><span>Setup Domain & Hosting</span></li>
+                        <li><i data-lucide="check"></i><span>Revisi 5x</span></li>
+                        <li><i data-lucide="check"></i><span>Pemeliharaan 3 Bulan</span></li>
+                    </ul>
+                    <a href="https://wa.me/6282325682195?text=Halo%20TechNova!%20Saya%20tertarik%20dengan%20paket%20Profil%20Perusahaan." 
+                       class="btn btn-accent" target="_blank" rel="noopener noreferrer">
+                        Mulai Sekarang
+                        <i data-lucide="arrow-right" class="icon-sm"></i>
+                    </a>
+                </div>
+
+                <!-- Package 3: E-Commerce -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card-icon">
+                        <i data-lucide="shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce</h3>
+                    <p class="service-subtitle">Untuk toko online & retail</p>
+                    <div class="service-price-wrap">
+                        <span class="service-price-old">Rp 5.200.000</span>
+                        <span class="service-discount-badge">Save 47%</span>
+                        <div class="service-price">Rp2.7<span>50.000</span></div>
+                    </div>
+                    <ul class="service-features">
+                        <li><i data-lucide="check"></i><span>Unlimited Product</span></li>
+                        <li><i data-lucide="check"></i><span>Dashboard Admin</span></li>
+                        <li><i data-lucide="check"></i><span>Responsive</span></li>
+                        <li><i data-lucide="check"></i><span>SEO Friendly</span></li>
+                        <li><i data-lucide="check"></i><span>WhatsApp Order</span></li>
+                        <li><i data-lucide="check"></i><span>Setup Domain & Hosting</span></li>
+                        <li><i data-lucide="check"></i><span>Integrasi Payment Gateway</span></li>
+                        <li><i data-lucide="check"></i><span>Manajemen Inventori</span></li>
+                        <li><i data-lucide="check"></i><span>Integrasi Email Marketing</span></li>
+                        <li><i data-lucide="check"></i><span>Pemeliharaan 6 Bulan</span></li>
+                    </ul>
+                    <a href="https://wa.me/6282325682195?text=Halo%20TechNova!%20Saya%20tertarik%20dengan%20paket%20E-Commerce." 
+                       class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        Mulai Sekarang
+                        <i data-lucide="arrow-right" class="icon-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         WORKFLOW SECTION
+         ============================================================ -->
+    <section class="section" id="workflow">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Proses Kerja Kami</span>
+                <h2>Bagaimana Kami Mewujudkan<br><span class="text-gradient">Visi Anda</span></h2>
+                <p>Proses yang efisien dari konsep hingga peluncuran, memastikan transparansi dan keunggulan di setiap tahap.</p>
+            </div>
+
+            <div class="workflow-grid">
+                <div class="workflow-step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="workflow-step-icon">
+                        <i data-lucide="search"></i>
+                    </div>
+                    <div class="workflow-step-number">01</div>
+                    <h4>Penemuan</h4>
+                    <p>Kami menganalisis bisnis, tujuan, dan target audiens Anda untuk merancang strategi sempurna.</p>
+                </div>
+                <div class="workflow-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="workflow-step-icon">
+                        <i data-lucide="pen-tool"></i>
+                    </div>
+                    <div class="workflow-step-number">02</div>
+                    <h4>Desain</h4>
+                    <p>Desain UI/UX modern dan sempurna disesuaikan dengan identitas dan visi brand Anda.</p>
+                </div>
+                <div class="workflow-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="workflow-step-icon">
+                        <i data-lucide="code-2"></i>
+                    </div>
+                    <div class="workflow-step-number">03</div>
+                    <h4>Pengembangan</h4>
+                    <p>Kode bersih dan optimal dengan teknologi terkini dan best practices.</p>
+                </div>
+                <div class="workflow-step" data-aos="fade-up" data-aos-delay="400">
+                    <div class="workflow-step-icon">
+                        <i data-lucide="rocket"></i>
+                    </div>
+                    <div class="workflow-step-number">04</div>
+                    <h4>Peluncuran</h4>
+                    <p>Pengujian menyeluruh, deployment, dan dukungan berkelanjutan untuk kesuksesan jangka panjang.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         TECHNOLOGY STACK SECTION
+         ============================================================ -->
+    <section class="section" id="tech" style="background: rgba(15, 31, 53, 0.3);">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Tech Stack</span>
+                <h2>Dibangun Dengan Teknologi<br><span class="text-gradient">Modern</span></h2>
+                <p>Kami memanfaatkan alat dan framework terkini untuk memberikan solusi berkinerja tinggi dan scalable.</p>
+            </div>
+
+            <!-- Design -->
+            <div class="tech-category" data-aos="fade-up">
+                <div class="tech-category-header">
+                    <i data-lucide="palette" class="tech-category-icon"></i>
+                    <h3 class="tech-category-title">Design</h3>
+                </div>
+                <div class="tech-category-grid">
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="50"><div class="tech-item-icon">🎨</div><h4>Figma</h4></div>
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="150"><div class="tech-item-icon">🧩</div><h4>Framer</h4></div>
+                </div>
+            </div>
+
+            <!-- Frontend -->
+            <div class="tech-category" data-aos="fade-up" data-aos-delay="100">
+                <div class="tech-category-header">
+                    <i data-lucide="monitor" class="tech-category-icon"></i>
+                    <h3 class="tech-category-title">Frontend</h3>
+                </div>
+                <div class="tech-category-grid">
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="100"><div class="tech-item-icon">📱</div><h4>Next.js</h4></div>
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="200"><div class="tech-item-icon">🔷</div><h4>Tailwind CSS</h4></div>
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="250"><div class="tech-item-icon">🟨</div><h4>JavaScript</h4></div>
+                </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="tech-category" data-aos="fade-up" data-aos-delay="200">
+                <div class="tech-category-header">
+                    <i data-lucide="server" class="tech-category-icon"></i>
+                    <h3 class="tech-category-title">Backend</h3>
+                </div>
+                <div class="tech-category-grid">
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="200"><div class="tech-item-icon">🛡️</div><h4>Supabase</h4></div>
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="250"><div class="tech-item-icon">🔐</div><h4>Firebase</h4></div>
+                </div>
+            </div>
+
+            <!-- CMS -->
+            <div class="tech-category" data-aos="fade-up" data-aos-delay="300">
+                <div class="tech-category-header">
+                    <i data-lucide="file-text" class="tech-category-icon"></i>
+                    <h3 class="tech-category-title">CMS</h3>
+                </div>
+                <div class="tech-category-grid">
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="50"><div class="tech-item-icon">🔶</div><h4>WordPress</h4></div>
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="200"><div class="tech-item-icon">🌿</div><h4>Contentful</h4></div>
+                </div>
+            </div>
+
+            <!-- Deployment -->
+            <div class="tech-category" data-aos="fade-up" data-aos-delay="400">
+                <div class="tech-category-header">
+                    <i data-lucide="cloud" class="tech-category-icon"></i>
+                    <h3 class="tech-category-title">Deployment</h3>
+                </div>
+                <div class="tech-category-grid">
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="50"><div class="tech-item-icon">⚡</div><h4>Vercel</h4></div>
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="200"><div class="tech-item-icon">🔹</div><h4>Netlify</h4></div>
+                </div>
+            </div>
+
+            <!-- AI Assisted -->
+            <div class="tech-category" data-aos="fade-up" data-aos-delay="500">
+                <div class="tech-category-header">
+                    <i data-lucide="sparkles" class="tech-category-icon"></i>
+                    <h3 class="tech-category-title">AI Assisted</h3>
+                </div>
+                <div class="tech-category-grid">
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="50"><div class="tech-item-icon">🤖</div><h4>ChatGPT</h4></div>
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="100"><div class="tech-item-icon">👨‍💻</div><h4>GitHub Copilot</h4></div>
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="150"><div class="tech-item-icon">✨</div><h4>Claude AI</h4></div>
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="200"><div class="tech-item-icon">🧠</div><h4>Manus AI</h4></div>
+                    <div class="tech-item" data-aos="fade-up" data-aos-delay="250"><div class="tech-item-icon">⚡</div><h4>Blackbox AI</h4></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         PORTFOLIO SECTION
+         ============================================================ -->
+    <section class="section" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Portofolio Kami</span>
+                <h2>Proyek Terbaru<br><span class="text-gradient">yang Kami Banggakan</span></h2>
+                <p>Jelajahi karya terbaru kami yang menampilkan solusi kreatif di berbagai industri.</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="portfolio-filters" data-aos="fade-up" data-aos-delay="100">
+                <button class="active" data-filter="*">Semua</button>
+                <button data-filter="landing-page">Landing Page</button>
+                <button data-filter="company-profile">Profil Perusahaan</button>
+                <button data-filter="ecommerce">E-Commerce</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="landing-page" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-item-image" style="background: linear-gradient(135deg, rgba(59,130,246,0.15), rgba(79,209,255,0.1));">🎨</div>
+                    <div class="portfolio-item-overlay">
+                        <h4>Landing Agensi Digital</h4>
+                        <p>Landing page fokus konversi untuk agensi kreatif</p>
+                        <a href="https://pixelcraftstudio.framer.ai/" target="_blank" rel="noopener noreferrer">Lihat Demo Proyek <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ecommerce" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-item-image" style="background: linear-gradient(135deg, rgba(16,185,129,0.15), rgba(5,150,105,0.1));">🛍️</div>
+                    <div class="portfolio-item-overlay">
+                        <h4>Toko Elektronik Online</h4>
+                        <p>E-commerce dengan payment gateway terintegrasi</p>
+                        <a href="https://voltix-electronics-alpha.vercel.app/" target="_blank" rel="noopener noreferrer">Lihat Demo Proyek <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="company-profile" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-item-image" style="background: linear-gradient(135deg, rgba(99,102,241,0.15), rgba(79,70,229,0.1));">🏢</div>
+                    <div class="portfolio-item-overlay">
+                        <h4>Profil Korporat</h4>
+                        <p>Website perusahaan profesional dengan CMS & blog</p>
+                        <a href="#">Lihat Proyek <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="landing-page" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-item-image" style="background: linear-gradient(135deg, rgba(236,72,153,0.15), rgba(244,63,94,0.1));">👗</div>
+                    <div class="portfolio-item-overlay">
+                        <h4>Landing Page Usaha Rumahan</h4>
+                        <p>Landing page modern untuk UMKM</p>
+                        <a href="https://tailorslandingpage.framer.ai/" target="_blank" rel="noopener noreferrer">Lihat Demo Proyek <i data-lucide="arrow-up-right"></i></a>
+                    </div>                       
+                </div>
+                <div class="portfolio-item" data-category="ecommerce" data-aos="fade-up" data-aos-delay="500">
+                    <div class="portfolio-item-image" style="background: linear-gradient(135deg, rgba(245,158,11,0.15), rgba(239,68,68,0.1));">☕</div>
+                    <div class="portfolio-item-overlay">
+                        <h4>Profile Company Coffee Shop</h4>
+                        <p>Profil Perusahaan Coffee Shop yang Terintregasi ke kontak Perusahaan</p>
+                        <a href="https://ruang-seduh-g6h2.vercel.app/" target="_blank" rel="noopener noreferrer">Lihat Demo Proyek <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="company-profile" data-aos="fade-up" data-aos-delay="600">
+                    <div class="portfolio-item-image" style="background: linear-gradient(135deg, rgba(6,182,212,0.15), rgba(59,130,246,0.1));">🎓</div>
+                    <div class="portfolio-item-overlay">
+                        <h4>Platform Pendidikan</h4>
+                        <p>Platform pembelajaran online dengan sistem pendaftaran</p>
+                        <a href="#">Lihat Proyek <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         TESTIMONIALS SECTION
+         ============================================================ -->
+    <section class="section" id="testimonials" style="background: rgba(15, 31, 53, 0.3);">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Testimoni</span>
+                <h2>Apa Kata Klien<br><span class="text-gradient">Kami</span></h2>
+                <p>Dengarkan langsung dari bisnis yang telah kami bantu mengubah kehadiran digital mereka.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-stars">
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                    </div>
+                    <p>Coming Soon</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #3b82f6, #4fd1ff);">RS</div>
+                        <div class="testimonial-author-info">
+                            <h4>No Name</h4>
+                            <p>None</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-stars">
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                    </div>
+                    <p>Coming Soon</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #8b5cf6, #ec4899);">AP</div>
+                        <div class="testimonial-author-info">
+                            <h4>No Name</h4>
+                            <p>None</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-stars">
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                        <i data-lucide="star" fill="#f59e0b"></i>
+                    </div>
+                    <p>Coming Soon</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #06b6d4, #3b82f6);">SN</div>
+                        <div class="testimonial-author-info">
+                            <h4>No Name</h4>
+                            <p>None</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         FAQ SECTION
+         ============================================================ -->
+    <section class="section" id="faq">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">FAQ</span>
+                <h2>Pertanyaan yang Sering<br><span class="text-gradient">Diajukan</span></h2>
+                <p>Punya pertanyaan? Kami punya jawabannya. Berikut adalah pertanyaan-pertanyaan yang paling sering diajukan.</p>
+            </div>
+
+            <div class="faq-list" data-aos="fade-up" data-aos-delay="100">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Berapa lama waktu untuk membangun website?
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>Timeline tergantung pada kompleksitas proyek. Landing page dapat diserahkan dalam 3-5 hari, sedangkan situs e-commerce penuh mungkin memakan waktu 2-3 minggu. Kami akan memberikan timeline yang jelas selama konsultasi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Apakah Anda menyediakan layanan hosting dan domain?
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>Ya! Kami menyediakan bantuan setup hosting dan panduan registrasi domain. Kami juga dapat merekomendasikan penyedia hosting terbaik berdasarkan kebutuhan dan skala proyek Anda.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Apakah website saya akan mobile-friendly?
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>Tentu saja. Setiap website yang kami bangun sepenuhnya responsif dan dioptimalkan untuk semua perangkat — desktop, tablet, dan smartphone. Desain mobile-first adalah bagian inti dari proses pengembangan kami.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Bagaimana jika saya membutuhkan perubahan setelah website live?
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>Semua paket kami mencakup dukungan pemeliharaan. Untuk perubahan tambahan di luar periode pemeliharaan, kami menawarkan paket dukungan terjangkau untuk membuat website Anda tetap terkini.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Apakah Anda menyediakan layanan SEO?
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p>Ya, semua website kami dibangun dengan best practices SEO sejak awal. Kami juga menawarkan paket optimasi SEO lanjutan untuk bisnis yang ingin meningkatkan ranking pencarian mereka.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT SECTION
+         ============================================================ -->
+    <section class="section" id="contact" style="background: rgba(15, 31, 53, 0.3);">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Hubungi Kami</span>
+                <h2>Mari Mulai<br><span class="text-gradient">Percakapan</span></h2>
+                <p>Siap mewujudkan visi digital Anda? Hubungi kami dan diskusikan bagaimana kami dapat membantu.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-methods" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-method">
+                        <div class="contact-method-icon">
+                            <i data-lucide="mail"></i>
+                        </div>
+                        <div class="contact-method-text">
+                            <h4>Email</h4>
+                            <p>technovaprjct@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-method-icon">
+                            <i data-lucide="message-circle"></i>
+                        </div>
+                        <div class="contact-method-text">
+                            <h4>WhatsApp</h4>
+                            <p>+62 823 2568 2195</p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-method-icon">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <div class="contact-method-text">
+                            <h4>Lokasi</h4>
+                            <p>Sukoharjo, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-method-icon">
+                            <i data-lucide="clock"></i>
+                        </div>
+                        <div class="contact-method-text">
+                            <h4>Jam Kerja</h4>
+                            <p>Sen - Jum: 09.00 - 20.00 WIB</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form" data-aos="fade-up" data-aos-delay="200">
+                    <form 
+                    id="contactForm" 
+                    action="https://formspree.io/f/mrenjbya" 
+                    method="POST"
+                    novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nama Lengkap *</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Layanan yang Diminati</label>
+                            <select id="service" name="service">
+                                <option value="">Pilih layanan...</option>
+                                <option value="landing-page">Landing Page</option>
+                                <option value="company-profile">Profil Perusahaan</option>
+                                <option value="ecommerce">E-Commerce</option>
+                                <option value="custom">Proyek Custom</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan Anda *</label>
+                            <textarea id="message" name="message" placeholder="Ceritakan tentang proyek Anda..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">
+                            Kirim Pesan
+                            <i data-lucide="send" class="icon-sm"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         CTA SECTION
+         ============================================================ -->
+    <section class="cta-section" style="border-top: 1px solid rgba(30, 58, 95, 0.5); border-bottom: 1px solid rgba(30, 58, 95, 0.5);">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Siap Ubah<br> <span class="text-gradient">Kehadiran Digital Anda</span>?</h2>
+                <p>Jadwalkan konsultasi gratis dengan tim kami dan temukan bagaimana kami dapat membantu bisnis Anda berkembang online.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/6282325682195?text=Halo%20TechNova.Project!%20Saya%20ingin%20menjadwalkan%20konsultasi." 
+                       class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">
+                        <i data-lucide="message-circle" class="icon-sm"></i>
+                        Konsultasi Gratis
+                    </a>
+                    <a href="#portfolio" class="btn btn-outline-light btn-lg">
+                        <i data-lucide="eye" class="icon-sm"></i>
+                        Lihat Karya Kami
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="navbar-logo">
+                        <img src="assets/images/Logo.png" alt="TechNova Logo" class="logo-icon" id="footerLogoImg" title="Logo">
+                        <div class="logo-text">
+                            TechNova<span class="logo-dot">.</span>Project
+                        </div>
+                    </a>
+                    <p>Mengubah ide menjadi kenyataan digital. Kami membangun pengalaman web premium yang mendorong pertumbuhan dan meningkatkan brand.</p>
+                    <div class="footer-social">
+                     <a href="https://github.com/technovaprojectid" target="_blank">
+                     <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/technova-project-id932021/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/technovaprjct.id/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://web.facebook.com/profile.php?id=61592814145383" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                </div>
+                <div>
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="#services">Landing Page</a></li>
+                        <li><a href="#services">Profil Perusahaan</a></li>
+                        <li><a href="#services">E-Commerce</a></li>
+                        <li><a href="#services">Pengembangan Custom</a></li>
+                        <li><a href="#services">Optimasi SEO</a></li>
+                    </ul>
+                </div>
+<div>
+                    <h4>Perusahaan</h4>
+                    <ul>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#portfolio">Portofolio</a></li>
+                        <li><a href="#testimonials">Testimoni</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="#contact">Hubungi Kami</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TechNova.Project. Copyright.</p>
+                <div class="footer-bottom-links">
+                    <a href="privacy-policy.html">Kebijakan Privasi</a>
+                    <a href="terms-of-service.html">Syarat Layanan</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================================
+         FLOATING WHATSAPP BUTTON
+         ============================================================ -->
+    <a href="https://wa.me/6282325682195?text=Hello%20TechNova.Project!%20I'd%20like%20to%20discuss%20my%20project." 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Chat on WhatsApp">
+        <i data-lucide="message-circle"></i>
+    </a>
+
+    <!-- ============================================================
+         SCRIPTS
+         ============================================================ -->
+    <script src="script.js" defer></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out-cubic',
+            once: true,
+            offset: 80,
+            disable: 'mobile'
+        });
+        lucide.createIcons();
+    </script>
+</body>
+</html> 
